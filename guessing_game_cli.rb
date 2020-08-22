@@ -10,7 +10,7 @@ def run_guessing_game
    elsif user_input != rand_num
    puts "Sorry! The computer guessed #{rand_num}."
    else 
-   puts "Goodbye!"
+   break 
   end 
  end 
 end
