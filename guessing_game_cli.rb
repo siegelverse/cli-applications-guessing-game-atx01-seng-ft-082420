@@ -10,5 +10,6 @@ def run_guessing_game
    puts "Sorry! The computer guessed #{rand_num}."
    else 
    puts "Goodbye!"
+  end 
  end 
- end 
+end
