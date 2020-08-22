@@ -12,6 +12,6 @@ def run_guessing_game
     puts "Goodbye!"
    else 
     puts "error"
-    binding.pry
   end 
+  binding.pry
 end 
