@@ -1,4 +1,5 @@
 # Code your solution here!
+require 'pry'
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   user_input = gets.chomp
@@ -11,5 +12,6 @@ def run_guessing_game
     puts "Goodbye!"
    else 
     puts "error"
+    binding.pry
   end 
 end 
