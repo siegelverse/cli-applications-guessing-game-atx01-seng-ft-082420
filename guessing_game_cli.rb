@@ -5,6 +5,7 @@ def run_guessing_game
   rand_num = rand(1..6)
   while user_input == "exit" do 
     puts "Goodbye!"
+   break 
    elsif user_input == rand_num
    puts "You guessed the correct number!"
    elsif user_input != rand_num
