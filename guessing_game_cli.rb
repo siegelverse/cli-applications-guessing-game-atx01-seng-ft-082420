@@ -1,6 +1,5 @@
 # Code your solution here!
 def run_guessing_game
-  loop do 
   puts "Guess a number from 1-6"
   user_input = gets.chomp
   rand_num = rand(1..6)
@@ -12,4 +11,3 @@ def run_guessing_game
    puts "Goodbye!"
  end 
  end 
- end
