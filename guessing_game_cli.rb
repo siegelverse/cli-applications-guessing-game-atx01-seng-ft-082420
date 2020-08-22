@@ -6,11 +6,9 @@ def run_guessing_game
   user_input = gets.chomp
    if user_input == rand_num.to_s
     puts "You guessed the correct number!"
-   elsif user_input != rand_num.to_s
-    puts "Sorry! The computer guessed #{rand_num}."
-   elsif user_input.downcase == "exit"
+   elsif user_input == "exit"
     puts "Goodbye!"
    else 
-    puts "error"
+    puts "Sorry! The computer guessed #{rand_num}"
   end 
 end 
